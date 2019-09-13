@@ -89,6 +89,8 @@
                             </asp:MenuItem>
                             <asp:MenuItem Text="Contact"
                                 NavigateUrl="~/Contact.aspx"></asp:MenuItem>               
+                            <asp:MenuItem Text="Projects"
+                                NavigateUrl="~/Projects.aspx"></asp:MenuItem>
                         </Items>
                     </asp:Menu>
                 </div>
