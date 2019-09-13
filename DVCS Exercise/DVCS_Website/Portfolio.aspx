@@ -1,16 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="DVCS_Website.Portfolio" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
-
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+     <h2>My Portfolio.</h2>
+    <h3>Skills:</h3>
+    <asp:BulletedList ID="BulletedList1" runat="server">
+        <asp:ListItem>C#</asp:ListItem>
+        <asp:ListItem>Java</asp:ListItem>
+        <asp:ListItem>PHP</asp:ListItem>
+        <asp:ListItem>JavaScript</asp:ListItem>
+        <asp:ListItem>Web Design</asp:ListItem>
+    </asp:BulletedList>
 </asp:Content>
